@@ -4,11 +4,10 @@ This project trains a GPT-style character-level language model on the poems and 
 
 ## Key Features 
 
-Train a GPT-style Language Model on Rabindranath Tagore’s Works -
-Fine-tune a character-level or token-level transformer model using Tagore’s poems and songs to generate stylistically similar text.
+Train a GPT-style Language Model on Rabindranath Tagore’s Works.
+Built upon Andrej Karpathy’s NanoGPT, this project retains a clean and modular codebase ideal for understanding, experimentation, and customization.The architecture and config system make it easy to modify datasets, model size, training procedures, or sampling strategies for rapid iteration and research.
 
-Minimal and Readable Transformer Implementation -
-Built upon Andrej Karpathy’s NanoGPT, this project retains a clean and modular codebase ideal for understanding, experimentation, and customization.
+# Model Architecture 
 
-
+This project implements a GPT-style decoder-only Transformer, adapted for training on Rabindranath Tagore’s poetic works. 
 
