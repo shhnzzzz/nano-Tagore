@@ -1,4 +1,4 @@
-# train a miniature character-level shakespeare model
+# train a miniature character-level Tagore model
 # good for debugging and playing on macbooks and such
 
 out_dir = 'out-tagore-char'
@@ -19,7 +19,7 @@ batch_size = 64
 block_size = 256 # context of up to 256 previous characters
 
 # baby GPT model :)
-n_layer = 8 #6
+n_layer = 8 # 6
 n_head = 8 # 6
 n_embd = 384
 dropout = 0.2
