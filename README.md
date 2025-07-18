@@ -26,3 +26,8 @@ The model follows a decoder-only Transformer architecture similar to GPT-2. It c
     Final Linear Layer projecting to vocabulary logits
 
 The architecture is fully autoregressive and trained with causal masking, enabling it to generate text one token at a time.
+
+#Generate Poems with our trained model
+This project already includes a pretrained GPT model on Rabindranath Tagore's poetry. You can generate poems instantly without retraining.
+
+1. Open the colab notebook - [Poem Generator](https://colab.research.google.com/drive/1v9u1bhSiwpGdul3WhpK8yy402JgjR0S-?usp=sharing)
