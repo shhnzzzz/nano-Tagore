@@ -9,5 +9,5 @@ Built upon Andrej Karpathy’s NanoGPT, this project retains a clean and modular
 
 # Model Architecture 
 
-This project implements a GPT-style decoder-only Transformer, adapted for training on Rabindranath Tagore’s poetic works. 
+This project implements a GPT-style decoder-only Transformer, adapted for training on Rabindranath Tagore’s poetic works.
 
