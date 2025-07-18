@@ -31,3 +31,12 @@ The architecture is fully autoregressive and trained with causal masking, enabli
 This project already includes a pretrained GPT model on Rabindranath Tagore's poetry. You can generate poems instantly without retraining.
 
 1. Open the colab notebook - [Poem Generator](https://colab.research.google.com/drive/1v9u1bhSiwpGdul3WhpK8yy402JgjR0S-?usp=sharing)
+2. Run all cells
+It will automatically -
+Automatically download the pretrained model (ckpt.pt)
+
+Load it using sample.py
+
+Generate beautiful poems in the style of Tagore
+
+
