@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # The input file is expected to be in the same directory as this script
-input_file_path = os.path.join(os.path.dirname(__file__), 'song.txt')
+input_file_path = os.path.join(os.path.dirname(__file__), 'poem.txt')
 
 with open(input_file_path, 'r', encoding='utf-8') as f:
     data = f.read()
