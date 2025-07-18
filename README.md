@@ -11,3 +11,18 @@ Built upon Andrej Karpathy’s NanoGPT, this project retains a clean and modular
 
 This project implements a GPT-style decoder-only Transformer, adapted for training on Rabindranath Tagore’s poetic works.
 
+The model follows a decoder-only Transformer architecture similar to GPT-2. It consists of:
+
+    Token & Positional Embeddings
+
+    Stack of Transformer Blocks (12 layers by default), each with:
+
+        Multi-head self-attention
+
+        Feedforward network
+
+        Layer normalization and residual connections
+
+    Final Linear Layer projecting to vocabulary logits
+
+The architecture is fully autoregressive and trained with causal masking, enabling it to generate text one token at a time.
