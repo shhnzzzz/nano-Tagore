@@ -1,4 +1,4 @@
-# nano-Tagore   
+# nanoTagore   
 This project trains a GPT-style character-level language model on the poems and songs of Rabindranath Tagore, inspired by [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT). Our goal is to generate Tagore-style poetry using a minimal transformer-based architecture.
 
 
